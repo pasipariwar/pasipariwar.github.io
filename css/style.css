@@ -1030,7 +1030,7 @@ link:focus,
 @media only screen and (max-width: 640px) {
   .myTitle {
     color: yellow;
-    font-size: 20px;
+    font-size: 23px;
   }
   .navbar-toggler {
     padding: .25rem .75rem;
@@ -1042,5 +1042,9 @@ link:focus,
     position: absolute;
     right: 0;
     top: 20px;
-}
+  }
+  .navigation {
+    background-image: linear-gradient(to right, transparent 80%, #ffbc3b 20%);
+    transition: .2s ease;
+  }
 }
