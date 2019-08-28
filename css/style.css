@@ -45,7 +45,7 @@ h1, .h1 {
 
 @media (max-width: 575px) {
   h1, .h1 {
-    font-size: 45px;
+    font-size: 25px;
   }
 }
 
@@ -1060,4 +1060,7 @@ link:focus,
     background-image: linear-gradient(to right, transparent 80%, #ffbc3b 20%);
     transition: .2s ease;
   }
+  .hero-section {
+    padding: 140px 0 140px;
+}
 }
