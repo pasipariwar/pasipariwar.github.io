@@ -1023,6 +1023,7 @@ link:focus,
 .myTitle{
   color: yellow;
   font-size: 3vw;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=maps/style.css.map */
 
@@ -1040,7 +1041,7 @@ link:focus,
 @media only screen and (max-width: 990px) {
   .myTitle {
     color: yellow;
-    font-size: 23px;
+    font-size: 24px;
     margin-bottom: 0px;
     margin-top: 10px;
   }
