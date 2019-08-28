@@ -1026,7 +1026,17 @@ link:focus,
 }
 /*# sourceMappingURL=maps/style.css.map */
 
-
+.slogan {
+  color: palegoldenrod;
+  width: 80%;
+}
+@media only screen and (min-width: 990px){
+  .slogan {
+    position: absolute;
+    top: 70px;
+    color: palegoldenrod;
+  }
+}
 @media only screen and (max-width: 990px) {
   .myTitle {
     color: yellow;
