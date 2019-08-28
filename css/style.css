@@ -525,6 +525,7 @@ textarea.form-control {
   -webkit-transform-origin: top;
           transform-origin: top;
   font-weight: 600;
+
 }
 
 .top-header.hide {
@@ -1030,12 +1031,14 @@ link:focus,
 .slogan {
   color: palegoldenrod;
   width: 80%;
+  padding-bottom: 7px;
 }
 @media only screen and (min-width: 990px){
   .slogan {
     position: absolute;
     top: 70px;
     color: palegoldenrod;
+    padding-bottom: 7px;
   }
 }
 @media only screen and (max-width: 990px) {
@@ -1061,6 +1064,9 @@ link:focus,
     transition: .2s ease;
   }
   .hero-section {
-    padding: 140px 0 140px;
-}
+    padding: 150px 0 150px;
+  }
+  .top-header {
+    display: none;
+  }
 }
